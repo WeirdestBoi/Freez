@@ -1,0 +1,14 @@
+name: Freezzze
+version: '${project.version}'
+main: me.weirdestboi.freezzze.Freezzze
+author: WeirdestBoi
+commands:
+  freeze:
+    description: Freeze A Player!
+    permission: weirdestfreeze.freeze
+  freezelist:
+    description: List all Frozen Players!
+    permission: weirdestfreeze.list
+  freezereload:
+    description: Reload the FreezePlugin!
+    permission: weirdestfreeze.reload

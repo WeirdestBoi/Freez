@@ -1,0 +1,45 @@
+
+#  $$$$$$$$\                                                $$$$$$$\  $$\                     $$\
+#  $$  _____|                                               $$  __$$\ $$ |                    \__|
+#  $$ |    $$$$$$\   $$$$$$\   $$$$$$\  $$$$$$$$\  $$$$$$\  $$ |  $$ |$$ |$$\   $$\  $$$$$$\  $$\ $$$$$$$\
+#  $$$$$\ $$  __$$\ $$  __$$\ $$  __$$\ \____$$  |$$  __$$\ $$$$$$$  |$$ |$$ |  $$ |$$  __$$\ $$ |$$  __$$\
+#  $$  __|$$ |  \__|$$$$$$$$ |$$$$$$$$ |  $$$$ _/ $$$$$$$$ |$$  ____/ $$ |$$ |  $$ |$$ /  $$ |$$ |$$ |  $$ |
+#  $$ |   $$ |      $$   ____|$$   ____| $$  _/   $$   ____|$$ |      $$ |$$ |  $$ |$$ |  $$ |$$ |$$ |  $$ |
+#  $$ |   $$ |      \$$$$$$$\ \$$$$$$$\ $$$$$$$$\ \$$$$$$$\ $$ |      $$ |\$$$$$$  |\$$$$$$$ |$$ |$$ |  $$ |
+#  \__|   \__|       \_______| \_______|\________| \_______|\__|      \__| \______/  \____$$ |\__|\__|  \__|
+
+
+#the message the player gets when getting unfrozen.
+GotUnFrozenMessage: "&fYou got &aUNFROZEN&f by Staff!"
+
+#the message the player gets when getting frozen.
+GotFrozenMessage: "&fYou got &aFROZEN&f by Staff!"
+
+#the message the player gets when he reloades the plugin (usage: /freezereload)
+ReloadMessage: "&aYou have reloaded the Plugin!"
+
+#what the player get when being frozen but trying to "escape"
+FrozenMoveMessage: "&cYou are Frozen! You cant move!"
+FrozenChatMessage: "&cYou are Frozen! You cant talk!"
+FrozenCommandMessage: "&cYou are Frozen! You cant execute commands!"
+FrozenBreakMessage: "&cYou are Frozen! You cant break blocks!"
+FrozenPlaceMessage: "&cYou are Frozen! You cant place blocks!"
+
+#message when you run /freeze but dont define a Player!
+DefineAPlayerMessage: "&aPlease define the Player you want to Freeze!"
+
+#here you can make exceptions for /freeze
+freezecanMove: false
+freezecanChat: false
+freezecanCommand: false
+freezecanBreak: false
+freezecanPlace: false
+
+#player frozen titles:
+frozentitle: "&c&lYou got Frozen!"
+frozensubtitle: "&eif you leave you will be &c&lbanned!"
+unfrozentitle: "&aYoure unfrozen!"
+unfrozensubtitle: "&bbe free!"
+
+
+#Use \n to make a new line!
